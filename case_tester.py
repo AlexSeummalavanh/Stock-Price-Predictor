@@ -7,7 +7,7 @@ import yfinance as yf
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
-def test_nvda_prediction(news_sentiment):
+def main(news_sentiment):
     ticker = "NVDA"
     TIME_STEP = 60
     BATCH_SIZE = 30
@@ -48,3 +48,7 @@ def test_nvda_prediction(news_sentiment):
     plt.grid(True)
     plt.tight_layout()
     plt.show()
+
+if __name__ == "__main__":
+    news_sentiment = 5
+    main(news_sentiment)

@@ -3,6 +3,7 @@ from data.generator import StockDataGenerator
 from models.lstm_model import build_model
 from utils.helpers import predict_future_prices
 from utils.plotter import plot_predictions
+import numpy as np
 
 TIME_STEP = 60
 BATCH_SIZE = 30
