@@ -23,8 +23,7 @@ python main.py
 ### 4. Run the backtest (Optional)
 
 ```
-#Inside main.py
-test_nvda_prediction(news_sentiment=7.0)
+python case_tester.py
 ```
 
 ## How it works
